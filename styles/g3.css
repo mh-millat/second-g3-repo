@@ -16,13 +16,6 @@
     padding: 0px;
   } */
 
-  .btn{
-    background-color: #FF900E;
-    color: white;
-    border: none;
-    border-radius: 10px;
-  }
-
 
 
   .gray{
@@ -48,6 +41,10 @@ nav{
     align-items: center;
 }
 
+.b-clr{
+    color: #ec6e1f;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -56,7 +53,13 @@ ul{
 }
 ul > li{
     background-color: bisque;
-    border: 1px solid tomato;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+li > a:hover{
+    background-color: #148fdb;
+    font-size: 20px;
     padding: 5px;
     border-radius: 8px;
 }
@@ -281,6 +284,19 @@ main{
 
 .gap{
     margin-top: 10px;
+}
+
+.button:hover{
+    background-color: rgb(5, 116, 184);
+    font-size: 25px;
+}
+
+.button{
+    font-size: 20px;
+    background-color: #ee8a17;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 #button-primary{
