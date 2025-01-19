@@ -136,6 +136,7 @@ main{
 /* fact section */
 .some-fact{
     margin-top: 50px;
+    height: 180px;
 }
 
 .fact-heading{
@@ -348,10 +349,11 @@ main{
 
     .future-child2{
         height: 140px;
-        width: 350px;
+        width: 320px;
         padding: 20px;
         box-shadow: 0px 4px 15px rgb(201, 201, 201);
         border-radius: 10px;
+        margin: auto;
     
     }
 
