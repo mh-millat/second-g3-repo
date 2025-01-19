@@ -136,7 +136,8 @@ main{
 /* fact section */
 .some-fact{
     margin-top: 50px;
-    height: 180px;
+    height: 200px;
+    width: 100%;
 }
 
 .fact-heading{
@@ -328,6 +329,7 @@ main{
     }
     .img{
         max-width: 90%;
+        margin: auto;
     }
 
     .teams, .team-images{
@@ -400,6 +402,9 @@ main{
         gap: 20px;
         align-items: center;
         justify-content: space-evenly;
+    }
+    .Features-description{
+        width: 345px;
     }
 
 }
