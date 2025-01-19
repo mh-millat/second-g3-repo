@@ -256,7 +256,8 @@ main{
 
 .future-container{
     display: flex;
-    gap: 100px;
+    gap: 140px;
+    margin: auto;
 }
 
 .future-child{
@@ -361,14 +362,15 @@ main{
 
     .future-father-img{
         height: 600px;
-        width: 390px;
+        width: 360px;
+        margin: auto;
     }
     #button-primary{
         border-radius: 10px;
         border: none;
         background-color: #FF900E;
         padding: 15px;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: -40px;  
     }
 
